@@ -202,5 +202,6 @@ def main():
     test_duplicate()
     identity_card()
     welcome_day_generator()
+
 if __name__ == "__main__":
     main()
