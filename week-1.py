@@ -44,6 +44,7 @@ def predict_score():
             print("You predicted correctly!")
         else:
             print("You predicted incorrectly!")
+            
 def mood_checker():
     mood = input("How are you feeling today? ")
     if mood == "happy":
@@ -62,5 +63,15 @@ def personalised_greeting(name):
     print(f"Hello, {name}! Welcome to Python programming!")
 
 def calculate_average(num1, num2):
-    average = (num1 + num2) / 2 
+    average = stats.mean([num1, num2])
     return average
+
+def main():
+    static_print()
+    input_print()
+    predict_score()
+    mood_checker()
+    example_function()
+    personalised_greeting("Yea Nah")
+    avg = calculate_average(10, 20)
+    print(f"The average of 10 and 20 is {avg}.")
