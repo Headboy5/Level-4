@@ -1,4 +1,5 @@
 import statistics as stats
+
 def static_print():
     #Create an algorith of how I got into LTU this morning
     print("Leave the house\nWalk to the train station\nWait for the train\nBoard the train\nRide the train to LTU\nExit the train\nExit the train station\nWalk to LTU\nArrive at LTU")
