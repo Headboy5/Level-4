@@ -1,0 +1,73 @@
+Explore Python Data Types
+
+Part 1: Predict
+
+Run this. What happens and why?
+
+age = input("Age: ")
+print(age + 1)
+
+What happens and why?
+This raises a TypeError because input() returns a string, and Python cannot add
+an int (1) to a str directly.
+
+Part 2: Identify
+
+For each value, write its type using type():
+
+42 -> int
+3.14 -> float
+"hello" -> str
+True -> bool
+None -> NoneType
+[1, 2, 3] -> list
+(1, 2) -> tuple
+{1, 2} -> set
+{"a": 1} -> dict
+
+Part 3: Investigate
+
+Answer the following questions:
+1. What is the result of 0.1 + 0.2? 
+2. Which of these can be changed after creation: list, tuple, str, set?
+3. What does bool(0) and bool("") return
+4. What do the following expressions return? 
+bool(0)
+bool("")
+
+1. What is the result of 0.1 + 0.2?
+	0.1 + 0.2 = 0.30000000000000004
+2. Which of these can be changed after creation: list, tuple, str, set?
+	list and set can be changed after creation. tuple and str cannot.
+3. What does bool(0) and bool("") return?
+	bool(0) and bool("") both return False.
+4. What do the following expressions return?
+	bool(0) -> False
+	bool("") -> False
+
+Part 4: Fix this so it prints the correct total
+
+price = input("Price: ")
+total = price * 3
+print("Total:", total)
+
+Corrected code:
+
+price = input("Price: ")
+total = float(price) * 3
+print("Total:", total)
+
+Part 5: Create
+
+Create a Python statement that converts:
+
+["a", "b", "a"]
+
+into a collection containing only unique values.
+
+```unique_values = set(["a", "b", "a"])```
+
+Type error encountered and fix
+
+The type error I encountered was trying to add 1 to the string returned by input().
+I fixed it by converting the input to a number first with int() or float(), depending on the value being entered.
