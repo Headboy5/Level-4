@@ -1,0 +1,124 @@
+1. What is abstraction, and can you give an example from everyday life?
+Abstraction is simplifying a complex system by focusing only on the important details and hiding unnecessary complexity. Example: using a smartphone without needing to understand the internal electronics and software that make it work.
+
+2. What is the base of a number system?
+The base is the number of different digits used in that system.
+
+Can you give an example of a number in base 2, base 8, base 10, and base 16?
+- Base 2: 1011
+- Base 8: 27
+- Base 10: 42
+- Base 16: 2A
+
+3. Can you give some examples (at least 2) of numbers that could be either octal or decimal?
+Examples: 12, 20, 77
+
+4. How do you understand positional notation?
+Positional notation means the value of a digit depends on its place in the number. For example, 345 = 3×100 + 4×10 + 5×1. In binary, 1011 = 1×8 + 0×4 + 1×2 + 1×1 = 11.
+
+5. Why is all information in a computer represented in binary form?
+Because computers use electronic components that have only two states: on/off or 1/0. Binary is the simplest way to represent data using those states.
+
+6. What are the relationships between a bit, a byte, and a word?
+- Bit = 1 binary digit (0 or 1)
+- Byte = 8 bits
+- Word = a group of bits processed together (often 16, 32, or 64 bits)
+
+7. How many bytes are there in a 64-bit machine?
+8 bytes, because 64 ÷ 8 = 8.
+
+8. How many different things can be represented with
+
+a). Five bits?
+32
+
+b). Six bits?
+64
+
+c). Seven bits?
+128
+
+9. How many bits would be needed to represent a character set containing 45 different characters, and why?
+6 bits, because 2⁵ = 32 is not enough and 2⁶ = 64 is enough.
+
+10. What is the main difference between the ASCII and Unicode character sets?
+ASCII is a small character set mainly for English text, while Unicode can represent many more languages and symbols.
+
+Task 1: Convert the following numbers from the base shown to base 10
+
+a). 111 (base 2)
+7
+
+b). 777 (base 8)
+511
+
+c). CAFE (base 16)
+51966
+
+d). 777 (base 16)
+30583
+
+e). 111 (base 8)
+73
+
+Task 2: Convert the following binary numbers to octal.
+
+a). 111110110
+766
+
+b). 1000001
+101
+
+c). 10000010
+202
+
+d). 1100010
+142
+
+Task 3: Convert the following binary numbers to hexadecimal.
+
+a). 10101001
+A9
+
+b). 11100111
+E7
+
+c). 01101110
+6E
+
+d). 01111111
+7F
+
+Task 4: Convert the following hexadecimal numbers to octal.
+
+a). A9
+251
+
+b). E7
+367
+
+c). 6E
+336
+
+d). EE
+356
+
+Task 5: Convert the following octal numbers to hexadecimal.
+
+a). 666
+1B6
+
+b). 731
+1D9
+
+c). 404
+104
+
+d). 521
+151
+
+e). 1
+1
+
+Task 6: Explain how base 2, base 8, and base 16 are related (Optional)
+Base 2, base 8, and base 16 are related because 8 = 2³ and 16 = 2⁴. This means 1 octal digit = 3 binary bits, and 1 hexadecimal digit = 4 binary bits.
