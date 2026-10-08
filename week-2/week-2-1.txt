@@ -25,7 +25,7 @@ Because computers use electronic components that have only two states: on/off or
 - Word = a group of bits processed together (often 16, 32, or 64 bits)
 
 7. How many bytes are there in a 64-bit machine?
-8 bytes, because 64 ÷ 8 = 8.
+Complicated, but probably 8 bytes, because 64 ÷ 8 = 8.
 
 8. How many different things can be represented with
 
