@@ -1,15 +1,5 @@
-"""Extended three-round guessing game.
-
-Source document: Guessing Game Version Requirements, pages 1-3.
-
-Question answered: How can a guessing game use a score system, ten limited
-attempts, multiple rounds, nested loops, and functions to organize the game?
-"""
-
 import random
 
-
-# Question: How can one round track guesses, limit attempts, and give feedback?
 def play_single_round() -> int:
 	random_number = random.randint(1, 100)
 	attempts = 0
@@ -40,8 +30,6 @@ def play_single_round() -> int:
 	print(f"Game over. The correct number was {random_number}.")
 	return max_attempts
 
-
-# Question: How can three rounds be played and the total score evaluated?
 def play_game() -> None:
 	total_rounds = 3
 	total_score = 0
