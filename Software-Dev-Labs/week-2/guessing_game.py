@@ -33,7 +33,6 @@ def play_single_round() -> int:
 def play_game() -> None:
 	total_rounds = 3
 	total_score = 0
-	max_attempts = 10
 
 	print("Welcome to the Guessing Game!")
 
